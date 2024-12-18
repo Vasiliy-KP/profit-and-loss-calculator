@@ -1,5 +1,17 @@
 'use strict';
 
+let startBtn = document.querySelector('.start');
+
+let budgetOutput = document.querySelector('.budget-value');
+let dayBudgetOutput = document.querySelector('.daybudget-value');
+let levelOutput = document.querySelector('.level-value');
+let expensesOutput = document.querySelector('.expenses-value');
+let optionalExpensesOutput = document.querySelector('.optionalexpenses-value');
+let incomeOutput = document.querySelector('.income-value');
+let monthSavingsOutput = document.querySelector('.monthsavings-value');
+let yearSavingsOutput = document.querySelector('.yearsavings-value');
+
+
 let money, time;
 
 function start() {
